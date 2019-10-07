@@ -1,0 +1,36 @@
+{
+  "name": "quotes-api",
+  "version": "1.0.0",
+  "description": "quotes api for exchange rates",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "NODE_ENV=development node app.js",
+    "test": " jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmytro-khara/quotes-api.git"
+  },
+  "keywords": [
+    "Quotes",
+    "Rates",
+    "Exchange"
+  ],
+  "author": "Dmytro Khara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmytro-khara/quotes-api/issues"
+  },
+  "homepage": "https://github.com/dmytro-khara/quotes-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "https": "^1.0.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "pg": "^7.12.1",
+    "sequelize": "^5.19.3",
+    "sequelize-cli": "^5.5.1"
+  }
+}
